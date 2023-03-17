@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E2D8197-F881-430B-B62E-61AB50B46EC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quiz_Master_Vila_Bogdan</RootNamespace>
+    <AssemblyName>Quiz_Master_Vila_Bogdan</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arta.Designer.cs">
+      <DependentUpon>Arta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auto.Designer.cs">
+      <DependentUpon>Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bio.Designer.cs">
+      <DependentUpon>Bio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generic.Designer.cs">
+      <DependentUpon>Generic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geografie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geografie.Designer.cs">
+      <DependentUpon>Geografie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructiuni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructiuni.Designer.cs">
+      <DependentUpon>Instructiuni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Istorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Istorie.Designer.cs">
+      <DependentUpon>Istorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sport.Designer.cs">
+      <DependentUpon>Sport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Steaguri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Steaguri.Designer.cs">
+      <DependentUpon>Steaguri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Turism.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turism.Designer.cs">
+      <DependentUpon>Turism.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Arta.resx">
+      <DependentUpon>Arta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auto.resx">
+      <DependentUpon>Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bio.resx">
+      <DependentUpon>Bio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generic.resx">
+      <DependentUpon>Generic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geografie.resx">
+      <DependentUpon>Geografie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructiuni.resx">
+      <DependentUpon>Instructiuni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Istorie.resx">
+      <DependentUpon>Istorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sport.resx">
+      <DependentUpon>Sport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Steaguri.resx">
+      <DependentUpon>Steaguri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turism.resx">
+      <DependentUpon>Turism.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundalul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quiz_Master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Play 378060673070549.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Instructions 378060692628699.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Quit 378060703589357.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - C 2021 Vila Bogdan 378060737843351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundalul1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Back 378061275975860.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundalul2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Back 3780612759758601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Choose a topic 378062143825118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fluvii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germania.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fluvii1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germania1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecuator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marea_caspica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Denali.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Komodo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insule.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tren.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desert_australian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mammoth_cave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Latinitate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\war.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mongol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Civil War.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alexander_the_Great.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Battle_of_Zama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1066.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renaissance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cronologie.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D-Day.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luxor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fontana-di-trevi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taj_Mahal.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sydney.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dubai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Santorini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cape_Town.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angkor_Wat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mount_Rushmore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210502_121403.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210502_123740.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lionfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lavender.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210502_151426.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210502_153748.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baobabs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210502_162629676.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210502_164844827.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210502_170603.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210515_160046577.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210515_165300873.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210515_181100572.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210516_151519955.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210516_153232755.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dostoevsky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Godfather.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210516_164452286.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shakespeare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world_cup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_184109113.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_191108988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_192824758.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handball.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiger Woods.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_201306255.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Michael_Owen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_204659436.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210507_210433663.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toyota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GLE Coupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corvette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210517_164617783.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laferrari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suzuki Splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subaru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMW M5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20210517_175223.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polish_20210517_181714438.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slovenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uruguay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Liberia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Afghanistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iordania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tanzania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bangladesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Zealand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guatemala.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

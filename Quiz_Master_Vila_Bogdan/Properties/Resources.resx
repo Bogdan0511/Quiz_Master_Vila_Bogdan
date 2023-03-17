@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Mount_Rushmore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mount_Rushmore.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lavender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lavender.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210502_121403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210502_121403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GLE Coupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GLE Coupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_210433663" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_210433663.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Civil War" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Civil War.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baobabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baobabs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_204659436" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_204659436.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210502_164844827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210502_164844827.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lionfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lionfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_201306255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_201306255.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mongol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mongol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="war" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\war.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Quit 378060703589357" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Quit 378060703589357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Godfather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Godfather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corvette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corvette.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tanzania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tanzania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Latinitate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Latinitate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210516_151519955" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210516_151519955.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laferrari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laferrari.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tren.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210515_181100572" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210515_181100572.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suzuki Splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suzuki Splash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Battle_of_Zama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Battle_of_Zama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Denali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Denali.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Santorini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Santorini.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210515_165300873" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210515_165300873.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_191108988" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_191108988.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Back 378061275975860" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Back 378061275975860.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Komodo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Komodo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iordania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iordania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germania1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Germania1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210517_164617783" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210517_164617783.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundalul2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundalul2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quiz_Master" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quiz_Master.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Back 3780612759758601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Back 3780612759758601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marea_caspica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marea_caspica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New Zealand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Zealand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundalul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundalul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desert_australian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desert_australian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontana-di-trevi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontana-di-trevi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uruguay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uruguay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bangladesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bangladesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Germania.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slovenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slovenia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world_cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world_cup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210502_153748" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210502_153748.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Choose a topic 378062143825118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Choose a topic 378062143825118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liberia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liberia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Instructions 378060692628699" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Instructions 378060692628699.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210515_160046577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210515_160046577.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210517_175223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210517_175223.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Renaissance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Renaissance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Afghanistan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Afghanistan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tiger Woods" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tiger Woods.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taj_Mahal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Taj_Mahal.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundalul1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundalul1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fluvii1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fluvii1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Handball.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_192824758" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_192824758.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Angkor_Wat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Angkor_Wat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - Play 378060673070549" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - Play 378060673070549.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Subaru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Subaru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210516_164452286" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210516_164452286.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecuator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecuator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cronologie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cronologie.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alexander_the_Great" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alexander_the_Great.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shakespeare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shakespeare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sydney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sydney.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210517_181714438" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210517_181714438.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D-Day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-Day.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luxor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luxor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210502_162629676" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210502_162629676.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cool Text - C 2021 Vila Bogdan 378060737843351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cool Text - C 2021 Vila Bogdan 378060737843351.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210502_123740" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210502_123740.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dubai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dubai.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Michael_Owen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Michael_Owen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cape_Town" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cape_Town.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210502_151426" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210502_151426.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210516_153232755" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210516_153232755.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210502_170603" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210502_170603.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1066" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1066.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polish_20210507_184109113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polish_20210507_184109113.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fluvii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fluvii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMW M5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BMW M5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mammoth_cave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mammoth_cave.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dostoevsky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dostoevsky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toyota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toyota.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guatemala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guatemala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
